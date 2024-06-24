@@ -1,0 +1,48 @@
+.show-about{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.text-about{
+    color:rgb(216, 200, 200);
+    line-height: 30PX;
+    font-size:$font-size-desktop;
+    font-weight:$font-weight;
+}
+
+@media screen and (min-width:1px) and (max-width:400px) {
+
+    .title-about{
+        font-size: 18px;
+    }
+
+    .text-about{
+        font-size:$font-size-movil;
+        line-height: 22px;
+    }
+}
+
+@media (min-width:401px) and (max-width:600px) {
+    .title-about{
+        font-size: 19px;
+    }
+
+    .text-about{
+        font-size:$font-size-movil;
+        line-height: 22px;
+    }
+}
+
+@media (min-width:601px) and (max-width:800px) {
+    .text-about{
+        font-size:$font-size-movil;
+        line-height: 23px;
+    }
+}
+
+@media (min-width:601px) and (max-width:800px) {
+    .text-about{
+        font-size:$font-size-movil;
+        line-height: 23px;
+    }
+}

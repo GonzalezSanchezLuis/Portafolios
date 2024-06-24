@@ -1,0 +1,12 @@
+.end{
+    margin-top: 100px;
+    color: rgb(216, 200, 200);
+    font-size: $font-size-movil;
+    line-height: $line-height-movil;
+}
+
+@media screen and (min-width:800px) {
+    .end{
+        font-size: $font-size-desktop;
+    }
+}

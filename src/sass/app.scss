@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import 'reset';
+@import 'banner';
+@import 'variables';
+@import 'about';
+@import 'technologies-and-tools';
+@import 'projects';
+@import 'end';
+@import 'text-autowrite';
+
+
+body{
+    width: 90%;
+    background: #101A34;
+    margin: auto;
+    font-family: "Quicksand", sans-serif;
+}
+
+main{
+    margin:auto;
+    width: 80%;
+}
+
+
