@@ -323,9 +323,10 @@ template {
 }
 
 .banner-icon {
+  width: 15%;
   display: flex;
   justify-content: space-between;
-  width: 10%;
+  align-items: center;
 }
 
 .icon a {
@@ -348,10 +349,13 @@ template {
     margin-top: 20px;
   }
   .banner-icon {
-    width: 35%;
+    width: 80%;
+  }
+  .icon a {
+    font-size: 20px;
   }
 }
-@media screen and (min-width: 301px) and (max-width: 500px) {
+@media screen and (min-width: 401px) and (max-width: 500px) {
   .banner-icon {
     width: 40%;
   }
@@ -436,12 +440,6 @@ template {
 .technologies {
   width: 10%;
   margin-top: 20px;
-  background: #003566;
-  border-radius: 5px;
-}
-
-.background-color {
-  border-radius: 5px;
 }
 
 .skills {
@@ -454,7 +452,7 @@ template {
 
 .icon {
   width: 60%;
-  height: 50px;
+  height: 60px;
 }
 
 .icon img {
@@ -462,7 +460,7 @@ template {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40px;
 }
 
 .sub-title-technologies {
@@ -484,15 +482,18 @@ template {
     line-height: 22px;
   }
   .technologies {
-    width: 10%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   .skills {
     width: 80%;
     height: 50px;
   }
   .icon img {
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
   }
 }
 @media (min-width: 401px) and (max-width: 600px) {

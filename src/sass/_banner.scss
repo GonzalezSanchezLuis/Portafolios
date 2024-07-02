@@ -30,9 +30,10 @@
 }
 
 .banner-icon{
+    width: 15%;
     display: flex;
     justify-content: space-between;
-    width: 10%;
+    align-items: center;
 }
 
 .icon a{
@@ -50,17 +51,22 @@
         font-size:$font-size-title-movil;
         margin-top: 30px;
     }
+
     .text-banner h2{
        font-size: $font-size-sub-title-movil;
        margin-top: 20px;
     }
 
     .banner-icon {
-        width: 35%;
+        width: 80%;
+    }
+
+    .icon a{
+        font-size: 20px;
     }
 }
 
-@media screen and (min-width:301px) and (max-width:500px) {
+@media screen and (min-width:401px) and (max-width:500px) {
     .banner-icon{
         width: 40%;
     }
