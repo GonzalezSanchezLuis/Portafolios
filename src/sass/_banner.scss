@@ -1,0 +1,79 @@
+
+@import 'variables';
+
+.header{
+    width: 100%;
+}
+
+.banner{
+    width: 80%;
+    margin: auto;
+}
+
+
+.text-banner p{
+    color: white;
+
+}
+
+.text-banner h1{
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.text-banner h1, h2{
+    color: $color-green;
+}
+
+.text-banner h2{
+    margin-top: -20px;
+}
+
+.banner-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.icon a{
+    color: gray;
+    font-size: 24px;
+}
+
+.cv{
+    text-decoration: 0;
+    font-weight: bolder;
+}
+
+@media screen and (min-width: 1px) and (max-width: 400px) {
+    .text-banner h1{
+        font-size:$font-size-title-movil;
+        margin-top: 30px;
+    }
+    .text-banner h2{
+       font-size: $font-size-sub-title-movil;
+       margin-top: 20px;
+    }
+
+    .banner-icon {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:301px) and (max-width:500px) {
+    .banner-icon{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:800px) {
+    .banner-icon{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1000px) {
+    .banner-icon{
+        width: 25%;
+    }
+}
