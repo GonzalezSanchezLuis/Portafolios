@@ -648,6 +648,12 @@ template {
   line-height: 25px;
 }
 
+.link-project {
+  color: #57DBCD;
+  font-size: 14px;
+  text-decoration: 0;
+}
+
 @media (min-width: 1px) and (max-width: 400px) {
   .content-projects {
     margin-top: 20px;
