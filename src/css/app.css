@@ -650,7 +650,7 @@ template {
 
 .link-project {
   color: #57DBCD;
-  font-size: 14px;
+  font-size: 17px;
   text-decoration: 0;
 }
 
@@ -665,6 +665,9 @@ template {
   .my-projects p {
     font-size: 14px;
     line-height: 22px;
+  }
+  .link-project {
+    font-size: 14px;
   }
   .use-technologies {
     width: 45%;
@@ -687,6 +690,9 @@ template {
     font-size: 14px;
     line-height: 22px;
   }
+  .link-project {
+    font-size: 14px;
+  }
 }
 @media (min-width: 601px) and (max-width: 800px) {
   .content-projects {
@@ -699,6 +705,9 @@ template {
   .my-projects p {
     font-size: 14px;
     line-height: 22px;
+  }
+  .link-project {
+    font-size: 14px;
   }
   .use-technologies {
     width: 25%;

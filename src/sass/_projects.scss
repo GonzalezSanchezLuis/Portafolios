@@ -69,7 +69,7 @@
 
 .link-project{
     color:$color-green;
-    font-size: 14px;
+    font-size:$font-size-desktop;
     text-decoration: 0;
 }
 
@@ -88,6 +88,11 @@
           font-size:$font-size-movil;
           line-height:$line-height-movil;
       }
+
+      .link-project{
+        font-size:$font-size-movil;
+    }
+
 
       .use-technologies{
         width: 45%;
@@ -113,8 +118,11 @@
 
     .my-projects p{
         font-size:$font-size-movil;
-        line-height:$line-height-movil;
-        
+        line-height:$line-height-movil;       
+    }
+
+    .link-project{
+        font-size:$font-size-movil;
     }
   }
 
@@ -133,6 +141,9 @@
     .my-projects p{
         font-size:$font-size-movil;
         line-height:$line-height-movil;
+    }
+    .link-project{
+        font-size:$font-size-movil;
     }
 
     .use-technologies{
